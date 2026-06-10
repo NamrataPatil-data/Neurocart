@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.home-container {
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+}
+
+/* HERO */
+.hero {
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: radial-gradient(circle, #0ea5e9, #0f172a);
+  padding: 20px;
+}
+
+.hero-content h1 {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 24px;
+  max-width: 900px;
+  margin: auto;
+  opacity: 0.9;
+}
+
+.shop-btn {
+  margin-top: 30px;
+  padding: 16px 40px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #06b6d4, #22c55e);
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.shop-btn:hover {
+  transform: scale(1.08);
+}
+
+/* CATEGORIES */
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 80px 20px;
+  flex-wrap: wrap;
+}
+
+.category-card {
+  width: 180px;
+  height: 180px;
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(14px);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.category-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 0 30px rgba(14,165,233,0.4);
+}
+
+.category-icon {
+  font-size: 42px;
+  margin-bottom: 12px;
+}
+
+/* FEATURES */
+.features {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+
+.feature-grid {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  width: 250px;
+  padding: 25px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 18px;
+  font-size: 22px;
+  transition: 0.3s;
+}
+
+.feature-card:hover {
+  transform: scale(1.05);
+}
+
+/* REVIEWS */
+.reviews {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.reviews h2 {
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+
+.review-grid {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.review-card {
+  width: 300px;
+  padding: 30px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 18px;
+  font-size: 20px;
+}
+
+/* NEWSLETTER */
+.newsletter {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.newsletter h2 {
+  font-size: 48px;
+}
+
+.newsletter-box {
+  margin-top: 30px;
+}
+
+.newsletter input {
+  padding: 15px;
+  width: 320px;
+  border: none;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.newsletter button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  background: #06b6d4;
+  color: white;
+  cursor: pointer;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 30px;
+  background: #020617;
+  font-size: 18px;
+}

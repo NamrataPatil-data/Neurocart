@@ -1,0 +1,197 @@
+.home {
+  background: #0f172a;
+  color: white;
+  min-height: 100vh;
+}
+
+/* HERO */
+.hero-banner {
+  height: 80vh;
+  background: linear-gradient(135deg, #1e3a8a, #0ea5e9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.hero-buttons button {
+  padding: 14px 28px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: white;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.hero-buttons button:hover {
+  transform: scale(1.05);
+}
+
+/* CATEGORY */
+.categories {
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.category-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.category-card {
+  background: #1e293b;
+  padding: 25px;
+  border-radius: 14px;
+  width: 160px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.category-card:hover {
+  background: #334155;
+  transform: translateY(-8px);
+}
+
+/* PRODUCTS */
+.featured {
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.product-card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 14px;
+}
+
+.product-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.price {
+  color: #22c55e;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.product-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.cart-btn {
+  flex: 1;
+  padding: 10px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+.buy-btn {
+  flex: 1;
+  padding: 10px;
+  background: #f97316;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+/* DEALS */
+.deals {
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.deal-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.deal-card {
+  background: #dc2626;
+  padding: 30px;
+  border-radius: 14px;
+  width: 250px;
+  font-size: 20px;
+}
+
+/* FEATURES */
+.features {
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.feature-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.feature-row div {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  width: 220px;
+}
+
+/* REVIEWS */
+.testimonials {
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.review-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.review-card {
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 14px;
+  width: 280px;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 30px;
+  background: #020617;
+}
